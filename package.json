@@ -1,7 +1,7 @@
 {
   "name": "@amajor/widget-tree-saver",
   "description": "A simple ReactJS widget that displays number of trees saved based on sheets not printed.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "build/index.js",
   "private": false,
   "license": "BSD-3-Clause",
