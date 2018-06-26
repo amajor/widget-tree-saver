@@ -1,4 +1,4 @@
-# Trees Saved Wiget
+# Trees Saved Widget
 
 This is a simple ReactJS dashboard-type widget used to display the number of
 trees saved based on the number of sheets passed into the component.
