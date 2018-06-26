@@ -1,7 +1,18 @@
 {
   "name": "@amajor/widget-tree-saver",
-  "version": "0.1.0",
-  "private": true,
+  "description": "A simple ReactJS widget that displays number of trees saved based on sheets not printed.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amajor/widget-tree-saver.git"
+  },
+  "author": "Alison Major",
+  "bugs": {
+    "url": "https://github.com/amajor/widget-tree-saver/issues"
+  },
+  "homepage": "https://github.com/amajor/widget-tree-saver",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
