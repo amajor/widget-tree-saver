@@ -1,7 +1,7 @@
 # Trees Saved Wiget
 
-This is a simple dashboard widget that can be used to display the number of
-trees being saved based on the number of sheets passed into the component.
+This is a simple ReactJS dashboard-type widget used to display the number of
+trees saved based on the number of sheets passed into the component.
 
 ## Getting Started
 
@@ -9,6 +9,13 @@ From inside of your React project directory, run
 
 ```script
 npm install @amajor/widget-tree-saver
+```
+
+Once installed, include it in your application by importing the file and
+inserting the component with your desired props.
+
+```js
+
 ```
 
 ## Configure

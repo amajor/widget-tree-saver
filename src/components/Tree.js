@@ -4,7 +4,7 @@ import TreeImage from '../images/tree.svg';
 class Tree extends Component {
   render() {
     return (
-      <img src={TreeImage} className="tree" alt="Tree" />
+      <TreeImage className="tree" alt="Tree" />
     );
   }
 }

@@ -1,9 +1,10 @@
 {
   "name": "@amajor/widget-tree-saver",
   "description": "A simple ReactJS widget that displays number of trees saved based on sheets not printed.",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "build/index.js",
   "private": false,
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/amajor/widget-tree-saver.git"
@@ -13,19 +14,29 @@
     "url": "https://github.com/amajor/widget-tree-saver/issues"
   },
   "homepage": "https://github.com/amajor/widget-tree-saver",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-runtime": "^6.26.0"
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-svg-loader": "^2.1.0"
   }
 }
