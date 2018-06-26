@@ -15,7 +15,27 @@ Once installed, include it in your application by importing the file and
 inserting the component with your desired props.
 
 ```js
+import React, { Component } from 'react';
+import TreeSaver from '@amajor/widget-tree-saver';
 
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      
+        <header className="App-header">
+          <h1 className="App-title">Your App</h1>
+          <h2 className="App-title">With the tree saverwidget below.</h2>
+        </header>
+
+        <TreeSaver numberOfPages={9500} interval="month" />
+
+      </div>
+    );
+  }
+}
+
+export default App;
 ```
 
 ## Configure
