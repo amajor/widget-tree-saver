@@ -26,8 +26,8 @@ will collapse into a column. We use the grid from Bootstrap to manage this.
 
 ### Horizontal Layout
 
-<img src="./docs/images/horizontal.png" title="Horizontal Layout" />
+<img src="https://github.com/amajor/widget-tree-saver/blob/master/docs/images/horizontal.png" title="Horizontal Layout" />
 
 ### Vertical Layout
 
-<img src="./docs/images/vertical.png" title="Vertical Layout" width="200px" />
+<img src="https://github.com/amajor/widget-tree-saver/blob/master/docs/images/vertical.png" title="Vertical Layout" width="200px" />
